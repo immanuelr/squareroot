@@ -45,10 +45,10 @@ class SquareRoot {
 		}
 		// check if square of mid value is less than n, do iteration with n and resultant values
 		else if (mul < n) {
-		return square(n, mid, j)
-		}
-		//else recur first half
-		else{
+		     return square(n, mid, j)
+			}
+		    //else recur first half
+		     else{
 			return square(n, i, mid)
 		}
 	    }
